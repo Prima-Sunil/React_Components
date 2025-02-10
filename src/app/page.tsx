@@ -1,6 +1,9 @@
 "use client";
 
 
+// import ClickCounter from "@/app/components/UseRef/ClickCounter";
+// import ChangeBackGround from "./components/UseRef/ChangeBackGround";
+// import Timer from "./components/UseRef/Timer";
 // import MultiEffectComponents from "./components/UseEffect/MultiEffectComponents";
 
 // import ResizeComponents from "./components/UseEffect/ResizeComponents";
@@ -12,6 +15,7 @@
 // import LoginForm from "./components/UseEffect/LoginFrom";
 // import Button from "./components/Button";
 // import Text from "./components/Text";
+import App from "@/app/components/App";
 
 export default function Home() {
   return (
@@ -49,7 +53,10 @@ export default function Home() {
       {/* <LoginForm/> */}
       {/* <ResizeComponents/> */}
       {/* <MultiEffectComponents/> */}
-
+      {/* <ClickCounter/> */}
+      {/* <ChangeBackGround/> */}
+     {/* <Timer/> */}
+     <App/>
     </div>
   );
 }
