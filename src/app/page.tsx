@@ -1,6 +1,15 @@
 "use client";
-import Counter from "@/app/components/UseEffect/Counter"
-import LoginForm from "./components/UseEffect/LoginFrom";
+
+
+// import MultiEffectComponents from "./components/UseEffect/MultiEffectComponents";
+
+// import ResizeComponents from "./components/UseEffect/ResizeComponents";
+
+// import LoggerComponents from "./components/UseEffect/LoggerComponents";
+// import TimerComponents from "./components/UseEffect/TimerComponents"; 
+
+// import Counter from "@/app/components/UseEffect/Counter"
+// import LoginForm from "./components/UseEffect/LoginFrom";
 // import Button from "./components/Button";
 // import Text from "./components/Text";
 
@@ -34,11 +43,13 @@ export default function Home() {
       <Text tag="h6">This is an H6</Text>
       <Text tag="p">This is a paragraph.</Text>
       <Text tag="span">This is a span.</Text> */}
-       <Counter />
-
-
+       {/* <Counter /> */}
+     {/* <LoggerComponents/> */}
+{/* <TimerComponents/> */}
       {/* <LoginForm/> */}
-      
+      {/* <ResizeComponents/> */}
+      {/* <MultiEffectComponents/> */}
+
     </div>
   );
 }
