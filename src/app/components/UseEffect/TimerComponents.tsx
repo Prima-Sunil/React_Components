@@ -12,7 +12,8 @@ function TimerComponents() {
             console.log("clear time ");
             clearInterval(intervel);
         }
-    },[])
+    
+    },[seconds])
   return (
     <div>
       <Text tag="h1">Seconds :{seconds}</Text>
