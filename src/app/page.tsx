@@ -1,12 +1,13 @@
 "use client";
 import Counter from "@/app/components/UseEffect/Counter"
+import LoginForm from "./components/UseEffect/LoginFrom";
 // import Button from "./components/Button";
 // import Text from "./components/Text";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen space-y-4 bg-gray-100">
-      <h1 className="text-2xl font-bold">Reusable Component</h1>
+      {/* <h1 className="text-2xl font-bold">Reusable Component</h1> */}
       {/* 
       <Button text="Filled Button" onClick={() => alert("Filled Button Clicked")} /> */}
       {/* <Button
@@ -33,8 +34,10 @@ export default function Home() {
       <Text tag="h6">This is an H6</Text>
       <Text tag="p">This is a paragraph.</Text>
       <Text tag="span">This is a span.</Text> */}
-      <Counter />
-      <h1>Hlo World!</h1>
+       <Counter />
+
+
+      {/* <LoginForm/> */}
       
     </div>
   );
