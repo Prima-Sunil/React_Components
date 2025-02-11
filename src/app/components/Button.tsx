@@ -2,7 +2,7 @@ import React from "react";
 
 interface ButtonProps {
   text: string;
-  onClick: () => void;
+  onClick?: () => void;
   type?: "outline" | "dotted" | "filled";
   className?: string;
   icon?: "left" | "right"; 
