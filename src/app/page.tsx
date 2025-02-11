@@ -16,7 +16,8 @@
 // import Button from "./components/Button";
 // import Text from "./components/Text";
 // import App from "@/app/components/App";
-import ThemeApp from "./components/ContextApi/ThemeApp";
+// import ThemeApp from "./components/ContextApi/ThemeApp";
+import CounterUI from "./components/Redux/CounterUI";
 
 export default function Home() {
   return (
@@ -57,8 +58,8 @@ export default function Home() {
       {/* <ClickCounter/> */}
       {/* <ChangeBackGround/> */}
      {/* <Timer/> */}
-     <ThemeApp/>
-    
+     {/* <ThemeApp/> */}
+    <CounterUI/>      
     </div>
   );
 }
